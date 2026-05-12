@@ -5,7 +5,7 @@
 class Employee:
     company = "HP"
 
-    def get_salary(self):
+    def get_salary(self): #self is important here because self is the way to reference the object of the class which is being created.
         return 34000
 
 e = Employee() # An object of class Employee is created here.
